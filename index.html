@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"unitytip.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="unity技术分享">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UnityTips">
+<meta property="og:url" content="http://unitytip.github.io/index.html">
+<meta property="og:site_name" content="UnityTips">
+<meta property="og:description" content="unity技术分享">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Sun">
+<meta property="article:tag" content="unity">
+<meta property="article:tag" content="C#">
+<meta property="article:tag" content="UnityTips">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://unitytip.github.io/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>UnityTips</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">UnityTips</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">让虚拟更现实,让现实更美好</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://unitytip.github.io/2020/04/13/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E5%9F%BA%E7%B1%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun">
+      <meta itemprop="description" content="unity技术分享">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="UnityTips">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/13/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E5%9F%BA%E7%B1%BB/" class="post-title-link" itemprop="url">单例模式基类</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-13 10:17:42 / 修改时间：10:19:13" itemprop="dateCreated datePublished" datetime="2020-04-13T10:17:42+08:00">2020-04-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>​        在日常Unity开发过程中,单例模式是比较常用的,今天来写一个单利模式基类,其主要目的是减少重复代码书写!</p>
+<h2 id="①普通单例写法"><a href="#①普通单例写法" class="headerlink" title="①普通单例写法"></a>①普通单例写法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public class GameObjectController : MonoBehaviour &#123;</span><br><span class="line"></span><br><span class="line">    private static GameObjectController instance;</span><br><span class="line"></span><br><span class="line">    public static GameObjectController GetInstance()</span><br><span class="line">    &#123;</span><br><span class="line">        if (instance &#x3D;&#x3D; null)</span><br><span class="line">        &#123;</span><br><span class="line">            instance &#x3D; new GameObjectController();</span><br><span class="line">        &#125;</span><br><span class="line">        return instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​        哪个脚本使用单利,就学要在脚本前书写这一段单利写法,重复代码较多!</p>
+<h2 id="②-使用C-泛型＋约束-书写单利基类"><a href="#②-使用C-泛型＋约束-书写单利基类" class="headerlink" title="② 使用C#泛型＋约束 书写单利基类"></a>② 使用C#泛型＋约束 书写单利基类</h2><h4 id="1-什么是泛型"><a href="#1-什么是泛型" class="headerlink" title="1)什么是泛型?"></a>1)什么是泛型?</h4><p>​        我们在编程程序时，经常会遇到功能非常相似的模块，只是它们处理的数据不一样。但我们没有办法，只能分别写多个方法来处理不同的数据类型。这个时候，那么问题来了，有没有一种办法，用同一个方法来处理传入不同种类型参数的办法呢？泛型的出现就是专门来解决这个问题的。</p>
+<p>​        在泛型类型或方法定义中，类型参数是在其实例化泛型类型的一个变量时，客户端指定的特定类型的占位符。 泛型类( <code>GenericList</code>)无法按原样使用，因为它不是真正的类型；它更像是类型的蓝图。 若要使用 <code>GenericList</code>，客户端代码必须通过指定尖括号内的类型参数来声明并实例化构造类型。 此特定类的类型参数可以是编译器可识别的任何类型。 可创建任意数量的构造类型实例，其中每个使用不同的类型参数。</p>
+<h4 id="2-泛型"><a href="#2-泛型" class="headerlink" title="2)泛型"></a>2)泛型</h4><p><u>方法</u>可以是泛型,如:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">private static void Show&lt;T&gt;(T tParameter)</span><br><span class="line">&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><u>类</u>可以是泛型,如:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">public class GenericClass&lt;T&gt;</span><br><span class="line">&#123;</span><br><span class="line">    public T _T;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><u>接口</u>可以是泛型,如:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public interface IGenericInterface&lt;T&gt;</span><br><span class="line">&#123;</span><br><span class="line">         &#x2F;&#x2F;泛型类型的返回值</span><br><span class="line">         T GetT(T t);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><u>委托</u>可以是泛型,如:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public delegate void SayHi&lt;T&gt;(T t);</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-泛型约束"><a href="#3-泛型约束" class="headerlink" title="3)泛型约束"></a>3)泛型约束</h4><p>​        所谓的泛型约束，实际上就是约束的类型T。使T必须遵循一定的规则。比如T必须继承自某个类，或者T必须实现某个接口等等。那么怎么给泛型指定约束？其实也很简单，只需要where关键字，加上约束的条件。泛型约束总共有五种。</p>
+<p><img src="https://i.loli.net/2020/04/13/kXGwoVMSZDRr82j.png" alt="表.png"></p>
+<p>使用方法:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public static void Show&lt;T&gt;(T tParameter) where T : People</span><br><span class="line">&#123;</span><br><span class="line">       Console.WriteLine($&quot;&#123;tParameter.Id&#125;_&#123;tParameter.Name&#125;&quot;);</span><br><span class="line">       tParameter.Hi();</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>​        其他还包括其他约束,请参考”.NET开发菜鸟的博客”,地址为:<a href="https://www.cnblogs.com/dotnet261010/p/9034594.html,讲的非常详细,大家可以认真学习。" target="_blank" rel="noopener">https://www.cnblogs.com/dotnet261010/p/9034594.html,讲的非常详细,大家可以认真学习。</a></p>
+<h2 id="③-单利基类写法与使用"><a href="#③-单利基类写法与使用" class="headerlink" title="③ 单利基类写法与使用"></a>③ 单利基类写法与使用</h2><p>单利基类如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public class BaseManager&lt;T&gt; where T:new()</span><br><span class="line">&#123;</span><br><span class="line">    private static T instance;</span><br><span class="line"></span><br><span class="line">    public static T GetInstance()</span><br><span class="line">    &#123;</span><br><span class="line">        if (instance&#x3D;&#x3D;null)</span><br><span class="line">        &#123;</span><br><span class="line">            instance &#x3D; new T();</span><br><span class="line">        &#125;</span><br><span class="line">        return instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用方法:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public class test : BaseManager&lt;test&gt; </span><br><span class="line">&#123;</span><br><span class="line">    public GameObject baseTest;</span><br><span class="line">    public void testBase()</span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(&quot;单利基类使用测试!&quot;);</span><br><span class="line">    &#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>引用:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public class GameObjectController : MonoBehaviour &#123;</span><br><span class="line"></span><br><span class="line">   void Awake()</span><br><span class="line">    &#123;</span><br><span class="line">        test.GetInstance().baseTest.SetActive(true);</span><br><span class="line">        test.GetInstance().testBase();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>致此结束,由于c#单继承的原因,其他方法在继承单利基类时,无法继承Mono类。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://unitytip.github.io/2020/04/10/%E5%85%B3%E4%BA%8EUnity-MonoBehaviour%E7%B1%BB%E4%B8%8B%E9%87%8D%E8%A6%81%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun">
+      <meta itemprop="description" content="unity技术分享">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="UnityTips">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/10/%E5%85%B3%E4%BA%8EUnity-MonoBehaviour%E7%B1%BB%E4%B8%8B%E9%87%8D%E8%A6%81%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">关于Unity MonoBehaviour类下重要方法的总结</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-10 17:09:59 / 修改时间：17:24:14" itemprop="dateCreated datePublished" datetime="2020-04-10T17:09:59+08:00">2020-04-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>​        在Unity使用过程中,MonoBehaviour作为每个Unity脚本的基类出现在每个脚本中,之前学习了一个关于单利的基类写法,目的是为了减少单利重复代码的书写,但是C#只允许单类继承,不能多累继承,所以对MonoBehaviour下的函数进行总结,防止后期查看。</p>
+<p><strong>①必然事件</strong></p>
+<p>Update    当MonoBehaviour启用时，每帧调用一次。用于更新场景和状态（物理状态有关的更新应该放在FixedUpdate里）</p>
+<p><u>Start</u>    Update函数第一次运行之前调用。用于游戏对象的初始化</p>
+<p><u>Awake</u>    脚本实例被创建时调用，用于游戏对象的初始化，但执行时间早于Start函数</p>
+<p><u>FixedUpdate</u>    用于物理状态的更新</p>
+<p><u>LateUpdate</u>    每帧调用一次，（在Update之后调用）</p>
+<p><strong>②事件响应函数</strong></p>
+<p><u>OnMouseOver</u>    鼠标移入GUI空间或者碰撞体时调用</p>
+<p><u>OnMouseEnter</u>    鼠标停留在GUI控件或者碰撞体时调用</p>
+<p><u>OnMouseExit</u>    鼠标移出GUI控件或者碰撞体时调用</p>
+<p><u>OnMouseDown</u>    鼠标在GUI控件或者碰撞体上按下时调用</p>
+<p><u>OnMouseUp</u>    鼠标按键释放时调用</p>
+<p><u>OnTriggerEnter</u>    当其他碰撞体进入触发器时调用</p>
+<p><u>OnTriggerExit</u>    当其他碰撞体离开触发器时调用</p>
+<p><u>OnTriggerStay</u>    当其他碰撞体停留在触发器时调用</p>
+<p><u>OnCollisionEnter</u>    当碰撞体与刚体与其他碰撞体或刚体接触时调用</p>
+<p><u>OnCollisionExit</u>    当碰撞体与刚体与其他碰撞体或刚体停止接触时调用</p>
+<p><u>OnCollisionStay</u>    当碰撞体与刚体与其他碰撞体或刚体保持接触时调用</p>
+<p><u>OnControllerColliderHit</u>    当控制器移动时与碰撞体发生碰撞时调用</p>
+<p><u>OnBecomeVisible</u>    当任意一个相机可见时调用</p>
+<p><u>OnBecomeInvisible</u>    当任意一个相机不可见时调用</p>
+<p><u>OnEnable</u>    对象启用或者激活时调用</p>
+<p><u>OnDisable</u>    对象禁用或者取消激活时调用</p>
+<p><u>OnDestroy</u>    脚本销毁时调用</p>
+<p><u>OnGUI</u>    渲染GUI和处理GUI时调用。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://unitytip.github.io/2020/04/07/Unity%E8%BF%9E%E6%8E%A5MySQL%E7%AE%80%E5%8D%95%E5%BA%94%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun">
+      <meta itemprop="description" content="unity技术分享">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="UnityTips">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/07/Unity%E8%BF%9E%E6%8E%A5MySQL%E7%AE%80%E5%8D%95%E5%BA%94%E7%94%A8/" class="post-title-link" itemprop="url">Unity连接MySQL简单应用</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-07 11:24:28 / 修改时间：11:33:19" itemprop="dateCreated datePublished" datetime="2020-04-07T11:24:28+08:00">2020-04-07</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h4 id="①首先进入Unity安装目录下找到相关dll文件"><a href="#①首先进入Unity安装目录下找到相关dll文件" class="headerlink" title="①首先进入Unity安装目录下找到相关dll文件:"></a>①首先进入Unity安装目录下找到相关dll文件:</h4><p>例如: C:Unity x.x.x\Editor\Data\Mono\lib\mono\2.0文件夹内,找到如图五个DLL文件</p>
+<p><img src="https://s1.ax1x.com/2020/04/07/GcuMge.png" alt="GcuMge.png"></p>
+<h4 id="②进入MySQL下载"><a href="#②进入MySQL下载" class="headerlink" title="②进入MySQL下载"></a>②进入MySQL下载</h4><p>下载网址:<a href="https://dev.mysql.com/downloads/windows/visualstudio/" target="_blank" rel="noopener">https://dev.mysql.com/downloads/windows/visualstudio/</a>  </p>
+<p>下载如图ZIP:</p>
+<p><img src="https://s1.ax1x.com/2020/04/07/GcKiPf.png" alt="GcKiPf.png"></p>
+<p>解压ZIP后得到如图文件</p>
+<p><img src="https://s1.ax1x.com/2020/04/07/GcK0JK.png" alt="GcK0JK.png"></p>
+<h4 id="③寻找对应版本MySql-Data-dll"><a href="#③寻找对应版本MySql-Data-dll" class="headerlink" title="③寻找对应版本MySql.Data.dll"></a>③寻找对应版本MySql.Data.dll</h4><p>打开Unity,找到Build Settings=&gt;Player Settings,找对如图所示API Level:</p>
+<p><img src="https://s1.ax1x.com/2020/04/07/GcMYp8.png" alt="GcMYp8.png"></p>
+<p>level为4.6,即可进入14.0v46中找到名为:MySql.Data.dll备用。</p>
+<h4 id="③建立工程测试使用"><a href="#③建立工程测试使用" class="headerlink" title="③建立工程测试使用"></a>③建立工程测试使用</h4><p>可以利用XMAPP搭建本地数据库环境进行测试,XMAPP下载地址为:<a href="https://www.apachefriends.org/index.html(配置自行学习)" target="_blank" rel="noopener">https://www.apachefriends.org/index.html(配置自行学习)</a></p>
+<p>在unity工程下建立文件夹Plugins,将之前准备的6个DLL文件导入,即可编写测试代码:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">using System.Collections;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using UnityEngine;</span><br><span class="line">using MySql.Data;&#x2F;&#x2F;引入</span><br><span class="line">using MySql.Data.MySqlClient;&#x2F;&#x2F;引入</span><br><span class="line">public class test : MonoBehaviour &#123;</span><br><span class="line"></span><br><span class="line">	void Start()</span><br><span class="line">	&#123;</span><br><span class="line">		&#x2F;&#x2F;新建连接字符串</span><br><span class="line">		MySqlConnectionStringBuilder connectionStringBuilder &#x3D; new MySqlConnectionStringBuilder();</span><br><span class="line">		connectionStringBuilder.Server &#x3D; &quot;localhost&quot;;&#x2F;&#x2F;数据库IP</span><br><span class="line">		connectionStringBuilder.UserID &#x3D; &quot;root&quot;;&#x2F;&#x2F;数据库名称</span><br><span class="line">		connectionStringBuilder.Password &#x3D; &quot;&quot;;&#x2F;&#x2F;数据库密码</span><br><span class="line">		connectionStringBuilder.Database &#x3D; &quot;mytest&quot;;&#x2F;&#x2F;操作表名称</span><br><span class="line">		&#x2F;&#x2F;实例化mysqlConnection对象</span><br><span class="line">		MySqlConnection connection &#x3D; new MySqlConnection(connectionStringBuilder.ConnectionString);</span><br><span class="line">		connection.Open();</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;实例化mysqlCommand对象(sql语句可以在phpmyadmin中查看)</span><br><span class="line">		MySqlCommand command &#x3D; connection.CreateCommand();</span><br><span class="line">		&#x2F;&#x2F;仅以插入为例子</span><br><span class="line">		command.CommandText &#x3D; &quot;INSERT INTO &#96;users&#96; (&#96;ID&#96;, &#96;usere&#96;, &#96;password&#96;) VALUES (&#39;6&#39;, &#39;测试&#39;, &#39;123&#39;);&quot;;</span><br><span class="line">		&#x2F;&#x2F;执行command命令</span><br><span class="line">		command.ExecuteNonQuery();</span><br><span class="line">		print(&quot;操作已完成,关闭数据库链接&quot;);</span><br><span class="line">		connection.Close();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Sun</p>
+  <div class="site-description" itemprop="description">unity技术分享</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Sun</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
